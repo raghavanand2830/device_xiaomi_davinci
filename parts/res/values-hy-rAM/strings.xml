@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- DC Dimming settings -->
-    <string name="dc_dimming_enable_title">Anti-flicker ռեժիմ</string>
-    <string name="dc_dimming_enable_summary">Օգտագործեք DC Dimming-ը աչքի լարվածությունը նվազեցնելու համար:</string>
     <!-- Dirac settings -->
     <string name="dirac_title">Mi Ձայնի բարելավում</string>
     <string name="dirac_summary">Օպտիմիզացնել ձայնի որակը</string>

@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- DC Dimming settings -->
-    <string name="dc_dimming_enable_title">Modo Anti-oscilação</string>
-    <string name="dc_dimming_enable_summary">Aplicar DC Dimming para reduzir cansaço visual</string>
     <!-- Dirac settings -->
     <string name="dirac_title">Amplificador Mi Sound</string>
     <string name="dirac_summary">Otimizar qualidade de áudio</string>

@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- DC Dimming settings -->
-    <string name="dc_dimming_enable_title">Mod anti-berkedip</string>
-    <string name="dc_dimming_enable_summary">Gunakan DC dimming untuk mengurangkan ketegangan mata</string>
     <!-- Dirac settings -->
     <string name="dirac_title">Penambah Bunyi Mi</string>
     <string name="dirac_summary">Optimumkan kualiti audio</string>

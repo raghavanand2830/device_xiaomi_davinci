@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- DC Dimming settings -->
-    <string name="dc_dimming_enable_title">Csíkozódáscsökkentő mód</string>
-    <string name="dc_dimming_enable_summary">Az egyenáramú halványítás engedélyezése a szemterhelés csökkentése érdekében</string>
     <!-- Dirac settings -->
     <string name="dirac_title">Mi Hangjavítás</string>
     <string name="dirac_summary">Hangminőség optimalizálása</string>

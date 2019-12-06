@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- DC Dimming settings -->
-    <string name="dc_dimming_enable_title">Režim bez preblikávania</string>
-    <string name="dc_dimming_enable_summary">Použiť DC stlmenie a chrániť zrak</string>
     <!-- Dirac settings -->
     <string name="dirac_title">Dirac HD Sound</string>
     <string name="dirac_summary">Vylepšiť kvalitu zvuku</string>

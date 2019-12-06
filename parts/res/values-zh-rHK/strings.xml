@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- DC Dimming settings -->
-    <string name="dc_dimming_enable_title">防閃爍模式</string>
-    <string name="dc_dimming_enable_summary">全域直流調光，低亮度下防閃爍護眼</string>
     <!-- Dirac settings -->
     <string name="dirac_title">使用米音提升音質</string>
     <string name="dirac_summary">米音</string>

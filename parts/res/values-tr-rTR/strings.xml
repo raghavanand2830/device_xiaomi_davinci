@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- DC Dimming settings -->
-    <string name="dc_dimming_enable_title">Titreşim önleme modu</string>
-    <string name="dc_dimming_enable_summary">Göz yorgunluğunu azaltmak için DC karartma uygulayın</string>
     <!-- Dirac settings -->
     <string name="dirac_title">Mi Ses Yükseltici</string>
     <string name="dirac_summary">Ses kalitesini optimize et</string>

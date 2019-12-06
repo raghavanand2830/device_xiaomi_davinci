@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- DC Dimming settings -->
-    <string name="dc_dimming_enable_title">Snímání bez mihotání</string>
-    <string name="dc_dimming_enable_summary">Funkce DC stmívání pomůže vašim unaveným očím lépe relaxovat</string>
     <!-- Dirac settings -->
     <string name="dirac_title">Vylepšení Mi Sound</string>
     <string name="dirac_summary">Optimalizovat kvalitu zvuku</string>

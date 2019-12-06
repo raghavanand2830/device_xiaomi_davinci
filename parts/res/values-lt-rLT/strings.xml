@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- DC Dimming settings -->
-    <string name="dc_dimming_enable_title">Nemirksėjimo režimas</string>
-    <string name="dc_dimming_enable_summary">Pritaikyti DC pritemdymą, siekiant sumažinti akių įtampą</string>
     <!-- Dirac settings -->
     <string name="dirac_title">„Mi garso pagerinimas“</string>
     <string name="dirac_summary">Optimizuoti garso kokybę</string>

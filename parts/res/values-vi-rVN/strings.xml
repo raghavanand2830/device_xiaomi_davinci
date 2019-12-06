@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- DC Dimming settings -->
-    <string name="dc_dimming_enable_title">Chế độ Chống nhấp nháy</string>
-    <string name="dc_dimming_enable_summary">Sử dụng tính năng giảm độ sáng DC để giảm mỏi mắt</string>
     <!-- Dirac settings -->
     <string name="dirac_title">Tăng cường Mi Sound</string>
     <string name="dirac_summary">Tối ưu chất lượng âm thanh</string>

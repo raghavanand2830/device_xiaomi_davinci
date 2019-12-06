@@ -16,9 +16,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- DC Dimming settings -->
-    <string name="dc_dimming_enable_title">Vilkumisvastane režiim</string>
-    <string name="dc_dimming_enable_summary">Rakendage silma koormuse vähendamiseks alalisvärvimist</string>
     <!-- Dirac settings -->
     <string name="dirac_title">Mi Heli Parandaja</string>
     <string name="dirac_summary">Optimeerige heli kvaliteeti</string>

@@ -30,21 +30,6 @@ public class FodService extends Service {
 
     private static final String TAG = "FodService";
     private static final boolean DEBUG = false;
-    private BroadcastReceiver mIntentReceiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            final String action = intent.getAction();
-            if (Intent.ACTION_SCREEN_ON.equals(action)) {
-                try {
-                    IDisplayFeature mDisplayFeature = IDisplayFeature.getService();
-                    mDisplayFeature.setFeature(0, 0, 2, 255);
-                    mDisplayFeature.setFeature(0, 3, 0, 255);
-                } catch (Exception e) {
-                    // Do nothing
-                }
-            }
-        }
-    };
 
     @Override
     public void onCreate() {
@@ -74,4 +59,20 @@ public class FodService extends Service {
         filter.addAction(Intent.ACTION_SCREEN_ON);
         this.registerReceiver(mIntentReceiver, filter);
     }
+
+    private BroadcastReceiver mIntentReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            final String action = intent.getAction();
+            if (Intent.ACTION_SCREEN_ON.equals(action)) {
+                try {
+                    IDisplayFeature mDisplayFeature = IDisplayFeature.getService();
+                    mDisplayFeature.setFeature(0, 0, 2, 255);
+                    mDisplayFeature.setFeature(0, 3, 0, 255);
+                } catch(Exception e) {
+                }
+            }
+        }
+    };
+
 }
