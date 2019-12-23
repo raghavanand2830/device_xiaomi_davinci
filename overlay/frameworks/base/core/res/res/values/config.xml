@@ -645,4 +645,7 @@
         <item>264</item>
         <item>265</item>
     </integer-array>
+
+    <!-- Shutdown if the battery temperature exceeds (this value * 0.1) Celsius. -->
+    <integer name="config_shutdownBatteryTemperature">680</integer>
 </resources>
