@@ -40,8 +40,6 @@ void load_davinciglobal() {
     property_override("ro.build.product", "davinci");
     property_override("ro.product.device", "davinci");
     property_override("ro.build.description", "davinci-user 9 PKQ1.181121.001 V10.3.1.0.PFKEUXM release-keys");
-    property_override("ro.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
-    property_override("ro.control_privapp_permissions", "log");
 }
 
 void load_davinciin() {
@@ -49,8 +47,6 @@ void load_davinciin() {
     property_override("ro.build.product", "davinciin");
     property_override("ro.product.device", "davinciin");
     property_override("ro.build.description", "davinciin-user 9 PKQ1.181121.001 V10.3.3.0.PFKINXM release-keys");
-    property_override("ro.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
-    property_override("ro.control_privapp_permissions", "log");
 }
 
 void load_davinci() {
@@ -58,8 +54,6 @@ void load_davinci() {
     property_override("ro.build.product", "davinci");
     property_override("ro.product.device", "davinci");
     property_override("ro.build.description", "davinci-user 9 PKQ1.181121.001 V10.3.12.0.PFKCNXM release-keys");
-    property_override("ro.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
-    property_override("ro.control_privapp_permissions", "log");
 }
 
 void vendor_load_properties() {
@@ -76,6 +70,8 @@ void vendor_load_properties() {
     }
 
     property_override("ro.bluetooth.a2dp_offload.supported", "false");
+    property_override("ro.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
+    property_override("ro.control_privapp_permissions", "log");
     property_override("persist.bluetooth.a2dp_offload.disabled", "true");
     property_override("persist.bluetooth.bluetooth_audio_hal.disabled", "true");
 }
