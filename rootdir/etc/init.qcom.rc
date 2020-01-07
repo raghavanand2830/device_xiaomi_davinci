@@ -1,5 +1,15 @@
 import /system/etc/init/init.safailnet.rc
 
+on init
+    # set default schedTune value for foreground/top-app
+    # Set default values for foreground and top-app stune
+    write /dev/stune/foreground/schedtune.prefer_idle 1
+    write /dev/stune/top-app/schedtune.boost 10
+    write /dev/stune/top-app/schedtune.prefer_idle 1
+
+    # Mask up legacy PowerHAL
+    mount none /system/etc/fs_none /vendor/bin/hw/android.hardware.power@1.2-service bind
+    mount none /system/etc/fs_none /vendor/etc/init/android.hardware.power@1.2-service.rc bind
 
 on boot
     write /sys/class/thermal/thermal_message/sconfig 10
