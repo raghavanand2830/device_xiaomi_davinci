@@ -15,7 +15,7 @@
  */
 
 #define ATRACE_TAG (ATRACE_TAG_POWER | ATRACE_TAG_HAL)
-#define LOG_TAG "android.hardware.power@1.3-service.raphael-libperfmgr"
+#define LOG_TAG "android.hardware.power@1.3-service.davinci-libperfmgr"
 
 #include <android-base/file.h>
 #include <android-base/logging.h>
@@ -34,7 +34,7 @@
 #include "display-helper.h"
 #include <linux/input.h>
 
-constexpr char kWakeupEventNode[] = "/dev/input/event3";
+constexpr char kWakeupEventNode[] = "/dev/input/event2";
 constexpr int kWakeupModeOff = 4;
 constexpr int kWakeupModeOn = 5;
 

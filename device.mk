@@ -155,10 +155,10 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.raphael-libperfmgr
+    android.hardware.power@1.3-service.davinci-libperfmgr
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/perf/powerhint.json:system/etc/powerhint.json \
+    $(LOCAL_PATH)/power-libperfmgr/powerhint.json:$(TARGET_COPY_OUT_SYSTEM)/etc/powerhint.json
 
 # Ril
 PRODUCT_PACKAGES += \
