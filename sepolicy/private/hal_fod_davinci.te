@@ -5,4 +5,6 @@ type hal_fod_davinci_exec, exec_type, system_file_type, file_type;
 init_daemon_domain(hal_fod_davinci)
 
 allow hal_fod_davinci sysfs_tp_fodstatus:file rw_file_perms;
+allow hal_fod_davinci sysfs_graphics:file rw_file_perms;
+allow hal_fod_davinci sysfs_graphics:dir search;
 binder_call(hal_fod_davinci, hal_fingerprint)
