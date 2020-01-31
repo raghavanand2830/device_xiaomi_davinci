@@ -13,9 +13,6 @@ product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 vendor/lib64/hw/camera.qcom.so:product/vendor_overlay/29/lib64/hw/camera.qcom.so|d418178613ff5c7e67dc402aa5d36c95c8d62e38
 
 # CNE
-etc/cne/Nexus/ATT/ATT_profiles.xml
-etc/cne/Nexus/ROW/ROW_profiles.xml
-etc/cne/Nexus/VZW/VZW_profiles.xml
 product/framework/com.quicinc.cne.api-V1.1-java.jar
 product/framework/com.quicinc.cne.constants-V1.0-java.jar
 product/framework/com.quicinc.cne.constants-V2.0-java.jar
@@ -81,23 +78,6 @@ lib/libfm-hci.so
 product/lib64/vendor.qti.hardware.fm@1.0.so
 product/lib/vendor.qti.hardware.fm@1.0.so
 
-# GPS
-etc/permissions/com.qti.location.sdk.xml
-etc/permissions/com.qualcomm.location.xml
-etc/permissions/izat.xt.srv.xml
-etc/permissions/privapp-permissions-com.qualcomm.location.xml
-framework/com.qti.location.sdk.jar
-framework/izat.xt.srv.jar
-lib64/liblocationservice_jni.so
-lib64/libxt_native.so
--priv-app/com.qualcomm.location/com.qualcomm.location.apk
-product/lib64/vendor.qti.gnss@1.0.so
-product/lib64/vendor.qti.gnss@1.1.so
-product/lib64/vendor.qti.gnss@1.2.so
-product/lib64/vendor.qti.gnss@2.0.so
-product/lib64/vendor.qti.gnss@2.1.so
-product/lib64/vendor.qti.gnss@3.0.so
-
 # IMS
 etc/permissions/com.qualcomm.qti.imscmservice.xml
 -product/app/uceShimService/uceShimService.apk
@@ -136,42 +116,6 @@ etc/excluded-input-devices.xml
 -product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk;PRESIGNED
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk;PRESIGNED
 
-# Modules
-vendor/lib/modules/audio_adsp_loader.ko:lib/modules/audio_adsp_loader.ko
-vendor/lib/modules/audio_apr.ko:lib/modules/audio_apr.ko
-vendor/lib/modules/audio_cs35l41.ko:lib/modules/audio_cs35l41.ko
-vendor/lib/modules/audio_hdmi.ko:lib/modules/audio_hdmi.ko
-vendor/lib/modules/audio_machine_msmnile.ko:lib/modules/audio_machine_msmnile.ko
-vendor/lib/modules/audio_mbhc.ko:lib/modules/audio_mbhc.ko
-vendor/lib/modules/audio_native.ko:lib/modules/audio_native.ko
-vendor/lib/modules/audio_pinctrl_wcd.ko:lib/modules/audio_pinctrl_wcd.ko
-vendor/lib/modules/audio_platform.ko:lib/modules/audio_platform.ko
-vendor/lib/modules/audio_q6.ko:lib/modules/audio_q6.ko
-vendor/lib/modules/audio_q6_notifier.ko:lib/modules/audio_q6_notifier.ko
-vendor/lib/modules/audio_q6_pdr.ko:lib/modules/audio_q6_pdr.ko
-vendor/lib/modules/audio_stub.ko:lib/modules/audio_stub.ko
-vendor/lib/modules/audio_swr_ctrl.ko:lib/modules/audio_swr_ctrl.ko
-vendor/lib/modules/audio_swr.ko:lib/modules/audio_swr.ko
-vendor/lib/modules/audio_tas2557.ko:lib/modules/audio_tas2557.ko
-vendor/lib/modules/audio_tfa98xx.ko:lib/modules/audio_tfa98xx.ko
-vendor/lib/modules/audio_usf.ko:lib/modules/audio_usf.ko
-vendor/lib/modules/audio_wcd934x.ko:lib/modules/audio_wcd934x.ko
-vendor/lib/modules/audio_wcd9360.ko:lib/modules/audio_wcd9360.ko
-vendor/lib/modules/audio_wcd9xxx.ko:lib/modules/audio_wcd9xxx.ko
-vendor/lib/modules/audio_wcd_core.ko:lib/modules/audio_wcd_core.ko
-vendor/lib/modules/audio_wcd_spi.ko:lib/modules/audio_wcd_spi.ko
-vendor/lib/modules/audio_wglink.ko:lib/modules/audio_wglink.ko
-vendor/lib/modules/audio_wsa881x.ko:lib/modules/audio_wsa881x.ko
-vendor/lib/modules/exfat.ko:lib/modules/exfat.ko
-vendor/lib/modules/modules.alias:lib/modules/modules.alias
-vendor/lib/modules/modules.dep:lib/modules/modules.dep
-vendor/lib/modules/mpq-adapter.ko:lib/modules/mpq-adapter.ko
-vendor/lib/modules/mpq-dmx-hw-plugin.ko:lib/modules/mpq-dmx-hw-plugin.ko
-vendor/lib/modules/qca_cld3_wlan.ko:lib/modules/qca_cld3_wlan.ko
-vendor/lib/modules/rmnet_perf.ko:lib/modules/rmnet_perf.ko
-vendor/lib/modules/rmnet_shs.ko:lib/modules/rmnet_shs.ko
-vendor/lib/modules/tspp.ko:lib/modules/tspp.ko
-
 # Perf
 product/lib64/vendor.qti.hardware.iop@2.0.so
 product/lib64/vendor.qti.hardware.perf@2.0.so
@@ -199,10 +143,7 @@ lib/libstagefright_softomx.so
 bin/charger
 
 # RIL
-etc/permissions/privapp-permissions-qti.xml
-etc/permissions/qti_libpermissions.xml|445f784e5cf0a21717dadb36a3f17af75a3af02f
 etc/permissions/qti_permissions.xml
-etc/sysconfig/qti_whitelist.xml
 -product/app/QtiTelephonyService/QtiTelephonyService.apk
 -product/app/atfwd/atfwd.apk
 product/etc/permissions/qcrilhook.xml
