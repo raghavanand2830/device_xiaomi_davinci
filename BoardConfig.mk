@@ -5,6 +5,8 @@
 
 BOARD_VENDOR := xiaomi
 
+BUILD_BROKEN_USES_NETWORK := true
+
 BUILD_BROKEN_DUP_RULES := true
 
 DEVICE_PATH := device/xiaomi/davinci
