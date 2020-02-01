@@ -128,6 +128,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.netflix.bsp_rev=Q855-16947-1
 
+# OTG
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.isUsbOtgEnabled=true
+
 # system prop for NFC DT
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.nfc.port=I2C
