@@ -47,14 +47,14 @@ void load_davinciglobal() {
     property_override("ro.product.model", "Mi 9T");
     property_override("ro.build.product", "davinci");
     property_override("ro.product.device", "davinci");
-    property_override("ro.build.description", "davinci-user 10 QKQ1.190825.002 V11.0.1.0.QFJMIXM release-keys");
+    property_override("ro.build.description", "davinci-user 10 QKQ1.190825.002 V11.0.4.0.QFJMIXM release-keys");
 }
 
 void load_davinciin() {
     property_override("ro.product.model", "Redmi K20");
     property_override("ro.build.product", "davinciin");
     property_override("ro.product.device", "davinciin");
-    property_override("ro.build.description", "davinciin-user 10 QKQ1.190825.002 V11.0.2.0.QFJINXM release-keys");
+    property_override("ro.build.description", "davinciin-user 10 QKQ1.190825.002 V11.0.1.0.QFJINXM release-keys");
 }
 
 void load_davinci() {
@@ -104,7 +104,7 @@ property_override("ro.bluetooth.a2dp_offload.supported", "false");
     property_override("persist.bluetooth.bluetooth_audio_hal.disabled", "true");
     property_override("ro.oem_unlock_supported", "0");
     property_override("ro.control_privapp_permissions", "log");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ1B.200105.004/6031802:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ1B.200205.002/6084387:user/release-keys");
 
     load_dalvikvm_properties();
 }
