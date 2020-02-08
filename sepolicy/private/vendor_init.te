@@ -1,3 +1,7 @@
 permissive vendor_init;
 
 type qti_init_shell_exec, exec_type, vendor_file_type,file_type;
+
+allow vendor_init {
+  camera_data_file
+}:dir { create search getattr open read setattr ioctl write add_name remove_name rmdir relabelfrom };
