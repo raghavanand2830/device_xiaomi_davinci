@@ -17,5 +17,9 @@
  */
 -->
 <resources>
+	<!-- Brightness -->
     <bool name="def_screen_brightness_automatic_mode">true</bool>
+
+    <!-- Bluetooth -->
+    <bool name="def_bluetooth_on">true</bool>
 </resources>
